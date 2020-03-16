@@ -1,0 +1,196 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Baloo 2', cursive;
+  color: #eeeeee;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, #455666 0%, #222222 90%);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30rem;
+  margin: 5rem auto;
+  -webkit-box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.container__title {
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  letter-spacing: .1rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.container__calc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem 2rem;
+}
+
+.container__calc-tip,
+.container__calc .tip {
+  text-align: center;
+  color: #ff5722;
+}
+
+.container__calc-tip__bill,
+.container__calc .tip__bill {
+  background-color: transparent;
+  border: transparent;
+  border-bottom: 1px solid #303841;
+  width: 5rem;
+  font-size: 1.6rem;
+  color: #eeeeee;
+}
+
+.container__calc-service,
+.container__calc .service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container__calc-service__qual,
+.container__calc .service__qual {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 10rem;
+  background-color: transparent;
+  padding: .5rem 1rem;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  color: #ff5722;
+  text-align: center;
+}
+
+.container__calc-people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container__calc-people #amount__people {
+  text-align: center;
+}
+
+.container__calc-people #people {
+  background-color: transparent;
+  width: 5rem;
+  text-align: center;
+  font-size: 1.6rem;
+  border: transparent;
+  border-bottom: 1px solid #303841;
+  color: #eeeeee;
+}
+
+.container__calc-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5rem;
+}
+
+.container__calc-button #calculate {
+  background-color: #ff5722;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 2rem;
+  -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+.container__calc-button #calculate:hover {
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.container__calc-tipAmount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background-color: #ff5722;
+  -webkit-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  margin-top: 1.5rem;
+  display: none;
+}
+
+.container__calc-tipAmount #total {
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.container__calc-tipAmount #each {
+  display: inline-block;
+}
+
+.container__calc-tipAmount #amount {
+  font-size: 4rem;
+}
+
+.container__calc-tipAmount #dollar {
+  font-size: 4rem;
+}
+
+.text {
+  padding-left: 25%;
+  padding-bottom: .5rem;
+}
+
+.text:nth-last-child(2) {
+  padding-bottom: 0;
+  padding-top: 1rem;
+}
+/*# sourceMappingURL=main.css.map */

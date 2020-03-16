@@ -1,0 +1,15 @@
+// COLORS
+$base-color: #303841;
+$second-color: #ff5722;
+$third-color: #eeeeee;
+
+
+// FONTS
+
+@mixin base-font {
+    font-family: 'Baloo 2', cursive;
+}
+
+@mixin second-font {
+    font-family: 'Playfair Display', serif;
+}
